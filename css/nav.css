@@ -1,0 +1,23 @@
+.navbar{
+    position:sticky;
+    top:60px;
+    min-height: 60px;
+    background-color: #1b1b1b;
+    z-index: 150;
+    overflow: hidden;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+.nav-link{
+    color: hsla(0,0%,100%,.8);
+    font-size: 12px;
+    margin-right: 30px;
+    text-decoration: none;
+    letter-spacing: -.09px;
+    text-transform: capitalize;
+    line-height: 20px;
+    
+}

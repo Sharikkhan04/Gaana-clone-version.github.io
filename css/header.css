@@ -1,0 +1,135 @@
+header{
+    background-color: #222428;
+    display: flex;
+    padding: 12px 10px;
+    padding-left: 40px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 200;
+}
+.header{
+    position: sticky;
+    top: 0;
+}
+.hamburger-menu{
+    color: white;
+}
+.hamburger-menu .svg-color{
+  fill: hsla(0,0%,100%,.8);
+}
+.logo{
+    margin-left: 20px;
+}
+.search-input{
+    display: flex;
+    flex: 1;
+    max-width: 70vw;
+    border-radius: 20px;
+    border: 1px solid hsla(0,0%,100%,.1);
+    padding: 6px ;
+    height: 40px;
+    
+}
+/* @media(max-width:908px){
+.search-input{
+    max-width: 300vw;
+}
+}
+@media(max-width:739px){
+    .search-input input {
+        display: none;
+        visibility: hidden;
+    }
+    .search-input{
+        max-width: max-content;
+        background-color: transparent;
+    }
+    .search-input,.svg-search{
+        color: transparent;
+        border: none;
+        
+    }
+    .svg-search svg{
+        width: 24px;
+        height: 24px;
+        
+    }
+
+} */
+.search-input input {
+    width:100%;
+    background-color: #1b1b1b;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 1px 2px;
+
+    
+}
+.search-input .svg-search{
+    margin-top: 12px;
+    padding: 0 3px;
+}
+.search-input .svg-search .search-input input{
+    display:block;
+    visibility: visible;
+}
+.search-input,input::placeholder{
+    background-color:#1b1b1b;
+    color: #cecece;
+    padding: 0 10px;
+}
+
+.header-btn button{
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 8px 20px;
+    border-radius: 15px;
+    margin: 0 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.header-btn1{
+    position: relative;
+}
+.floaing-badge{
+    position: absolute;
+    font-size: 8px;
+    text-transform:uppercase;
+    background-color:#e72c30 ;
+    color: #fff;
+    font-weight: 700;
+    padding: 3px 4px;
+    border-radius: 10px;
+    top: -7px;
+    right: 5px;
+}
+
+.right-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-header a{
+    cursor: pointer;
+    margin: 0 10px;
+}
+.login-header{
+ font-size: 12px;
+ text-decoration: none;
+ color: hsla(0,0%,100%,.75);
+ font-weight: 500;
+ cursor: pointer;
+ word-spacing: 2px;
+}
+@media(max-width:739px){
+    .header-btn{
+        display: none;
+    }
+    .right-header{
+        display: none;
+    }
+}

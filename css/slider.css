@@ -1,0 +1,35 @@
+/* .slider{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    background-color: black;
+    max-width: 100%;
+    height: 213px;
+    overflow: hidden;
+    position: relative;
+}
+.slider .img{
+    width: 375px;
+    height: 208px;
+    background-color: lightcoral;
+   
+}
+.img a,img{
+    width: 100%;
+    height: 100%;
+}
+span .svg-color{
+    width: 24px;
+    height: 24px;
+}
+.left-arr{
+    position: absolute;
+    top: 0;
+    background-color: aqua;
+} */
+
+.carousel-cell img{
+    width: 400px;
+    margin: 0px 12px;
+    
+}
