@@ -8,18 +8,18 @@ let index = 0;
 
 // insert song data
 const song = [
-    { songName: "jhoome jo pathaan.mp3", album: "pathaan", poster: "../picture & svg/1.webp" },
-    { songName: "pani di gal.mp3", album: "Jugni (My First Album)", poster: "../picture & svg/2.webp" },
-    { songName: "baarish ki jaye.mp3", album: "B Praak [album]", poster: "../picture & svg/3.webp" },
-    { songName: "oh sanam.mp3", album: "Tony Kakkar [album]", poster: "../picture & svg/4.webp" },
-    { songName: "nadiyon paar.mp3", album: "Roohi 2021", poster: "../picture & svg/5.webp" },
-    { songName: "dil ne.mp3", album: "unknown album", poster: "../picture & svg/6.webp" },
-    { songName: "kesariya.mp3", album: "Brahmāstra 2022", poster: "../picture & svg/7.webp" },
-    { songName: "tere pyaar me.mp3", album: "TJMM 2023", poster: "../picture & svg/8.webp" },
-    { songName: "main khiladi tu anari.mp3", album: "selfie 2023", poster: "../picture & svg/9.webp" },
-    { songName: "besharam rang.mp3", album: "pathaan 2023", poster: "../picture & svg/10.webp" },
-    { songName: "apna bana le.mp3", album: "bhediya 2022", poster: "../picture & svg/11.webp" },
-    { songName: "achha sila diya.mp3", album: "album song", poster: "../picture & svg/12.webp" },
+    { songName: "jhoome jo pathaan.mp3", album: "pathaan", poster: "song image/1.webp" },
+    { songName: "pani di gal.mp3", album: "Jugni (My First Album)", poster: "song image/2.webp" },
+    { songName: "baarish ki jaye.mp3", album: "B Praak [album]", poster: "song image/3.webp" },
+    { songName: "oh sanam.mp3", album: "Tony Kakkar [album]", poster: "song image/4.webp" },
+    { songName: "nadiyon paar.mp3", album: "Roohi 2021", poster: "song image/5.webp" },
+    { songName: "dil ne.mp3", album: "unknown album", poster: "song image/6.webp" },
+    { songName: "kesariya.mp3", album: "Brahmāstra 2022", poster: "song image/7.webp" },
+    { songName: "tere pyaar me.mp3", album: "TJMM 2023", poster: "song image/8.webp" },
+    { songName: "main khiladi tu anari.mp3", album: "selfie 2023", poster: "song image/9.webp" },
+    { songName: "besharam rang.mp3", album: "pathaan 2023", poster: "song image/10.webp" },
+    { songName: "apna bana le.mp3", album: "bhediya 2022", poster: "song image/11.webp" },
+    { songName: "achha sila diya.mp3", album: "album song", poster: "song image/12.webp" },
 ];
 
 songCard.forEach((element, i) => {

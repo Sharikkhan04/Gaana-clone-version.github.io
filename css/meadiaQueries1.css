@@ -186,8 +186,9 @@
             font-size:70%;
         }
         .current-music-playing{
-           min-height: 80%;
+           min-height: 90%;
            align-items:unset;
+           margin-top: 12px;
         }
         .current-music-playing img{
             position: relative;
@@ -207,16 +208,10 @@
     .music-player{
         padding: 2px;
         height: 15vh;
-    }.current-music-playing {
-        align-items: unset;
     }
-        /* .current-music-playing img{
-            width:100%;
-            height:100%;
-            filter: brightness(0.6);
-        } */
         .music-controls{
             margin:30px 10px 0px 10px;
+            
         }
         .seekbar{
             min-width: 72vw;
@@ -227,10 +222,13 @@
             padding-bottom: 3px;
             /* margin-top: 10px; */
         }
+        .play {
+            width:100%;
+            height:100%;
+        }
         .play svg{
-            width:12px;
-            height:10px;
-            /* viewBox:0 0 2 21; */
+            width: 40%;
+            height: 40%;
         }
     .music-controls svg{
         max-width:100%;
